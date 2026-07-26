@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Me</title>
+<link rel="icon" type="image/x-icon" href="src/sakura.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="simple-header">
+    <nav class="nav">
+      <a href="index.html" class="logo">LILY <b>Phan</b></a>
+      <div class="page-links">
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="simple-page">
+    <h1 class="page-title">About Me</h1>
+
+    <img class="page-banner" src="https://picsum.photos/seed/lily-about-banner/1200/500" alt="" loading="lazy" />
+
+    <div class="bento-grid">
+      <div class="bento-card yellow-a span-2">
+        <h2>Hey, I'm Lily</h2>
+        <p>I'm a Computer Science Specialist student at the University of Toronto (Class of 2028, GPA 3.67, Victoria College Scholar). I like building software across the whole stack &mdash; from AI-powered internal tools to accessibility-focused robotics pipelines &mdash; and I'm currently a Developer Operations Intern at RBC on the Helios on Actions team.</p>
+        <p>Outside of work, I'm VP Academic of the Computer Science Student Union (CSSU), where I help run events like the CSSU Undergraduate Research Conference (25+ student projects) and UofT CS Orientation (500+ incoming students). I'm also a Senior Software Developer with UofT Blueprint and an Academic Events Associate with Women in Computer Science (WiCS).</p>
+      </div>
+
+      <div class="bento-card yellow-b">
+        <h2>Education</h2>
+        <p>University of Toronto<br />Honours Bachelor of Computer Science Candidate<br />September 2023 &ndash; May 2028 (Expected)</p>
+        <p>Relevant courses: Data Structures &amp; Algorithms, Operating Systems, Databases, Machine Learning, Programming on the Web, Software Engineering Practices</p>
+      </div>
+
+      <div class="bento-card blue">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li><strong>Languages:</strong> Python, Java, TypeScript, SQL, Swift, HTML, CSS</li>
+          <li><strong>Frameworks &amp; Tools:</strong> React, FastAPI, Vite, Prisma, PostgreSQL, MongoDB, RabbitMQ, HashiCorp Vault, RAG, MCP, Figma</li>
+          <li><strong>DevOps:</strong> Docker, OpenShift (OCP4), GitHub Actions, Git, Railway</li>
+          <li><strong>AI Tools:</strong> GitHub Copilot, Cursor, Windsurf, Claude Code, Gemini</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Experience</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <h3>Developer Operations Intern &mdash; RBC</h3>
+          <p><em>Helios on Actions Team &middot; May 2026 &ndash; Present</em><br />
+          Contributing to the migration of 20,000+ GitHub repositories from GitHub Enterprise to GitHub Enterprise Cloud, and writing scripts to migrate legacy branch protection rules to GitHub rulesets, cutting related support tickets by 95%.</p>
+          <div class="tags">
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">RabbitMQ</span>
+            <span class="tag">HashiCorp Vault</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Fullstack Developer Intern &mdash; RBC</h3>
+          <p><em>Insurance Business Technology Team &middot; Sept 2025 &ndash; Dec 2025</em><br />
+          Built an agentic RAG workflow with Cohere and MCP to analyze 100+ page documents for credit risk evaluation, cutting analysis time by 65%. Trained an ML model to analyze app logs for early SRE issue detection &mdash; awarded Best Innovation Award.</p>
+          <div class="tags">
+            <span class="tag">RAG</span>
+            <span class="tag">MCP</span>
+            <span class="tag">Cohere</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Amplify Developer Intern &mdash; RBC</h3>
+          <p><em>Insurance Investments Team &middot; May 2025 &ndash; Aug 2025</em><br />
+          Built the full frontend for CORVI, an RBC tool for optimizing fixed income investments projected to generate $60M in revenue &mdash; won 2nd place among 20 teams in the Technical Distinction competition.</p>
+          <div class="tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Docker</span>
+            <span class="tag">OCP4</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Teaching Assistant &mdash; University of Toronto</h3>
+          <p><em>CSC111: Foundations of Computer Science II &middot; Jan 2026 &ndash; May 2026</em><br />
+          Selected as 1 of 17 TAs to lead tutorials for 300+ students, teaching core CS concepts like time complexity and evaluating student work.</p>
+          <div class="tags">
+            <span class="tag">Teaching</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="footer-copyright">© 2026 Lily Phan</p>
+  </div>
+</footer>
+</body>
+</html>

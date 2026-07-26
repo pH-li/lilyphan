@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Projects</title>
+<link rel="icon" type="image/x-icon" href="src/sakura.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="simple-header">
+    <nav class="nav">
+      <a href="index.html" class="logo">LILY <b>Phan</b></a>
+      <div class="page-links">
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="simple-page">
+    <h1 class="page-title">My Projects</h1>
+
+    <!-- FEATURED PROJECTS -->
+    <div class="section">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="project-grid">
+
+        <div class="project-card blue">
+          <img class="project-card-img" src="https://picsum.photos/seed/haptic-vision-lily/600/400" alt="" loading="lazy" />
+          <h3>Haptic Vision</h3>
+          <p>Designed a 5-stage ML pipeline (heatmap saliency, object detection, 2D-to-3D reconstruction) that converts screen content into a haptic-friendly 3D format for blind and low-vision users, in partnership with Haptic Vision Inc. Optimized inference time from 5 minutes to 30 seconds and built a CI pipeline reaching 85% test coverage across 2 microservices deployed on Railway.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">YOLOv8</span>
+            <span class="tag">Machine Learning</span>
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">Railway</span>
+          </div>
+        </div>
+
+        <div class="project-card pink">
+          <img class="project-card-img" src="https://picsum.photos/seed/corvi-bonds-lily/600/400" alt="" loading="lazy" />
+          <h3>CORVI</h3>
+          <p>A web app built during RBC's Amplify program that uses AI and financial models to evaluate and recommend bonds for fixed income investment analysts. Built the full frontend for a tool projected to generate $60M in revenue &mdash; won 2nd place among 20 teams in the Technical Distinction competition.</p>
+          <div class="tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Docker</span>
+            <span class="tag">OCP4</span>
+          </div>
+        </div>
+
+        <div class="project-card mint">
+          <img class="project-card-img" src="https://picsum.photos/seed/shelfconcious-lily/600/400" alt="" loading="lazy" />
+          <h3>ShelfConcious</h3>
+          <p>Built at DeltaHacks XI: a smart grocery assistant that logs items from a photo using an object detection API, tracks shelf life, sends expiry alerts, and suggests recipes based on ingredients about to go bad. Featured on Major League Hacking's page.</p>
+          <div class="tags">
+            <span class="tag">Object Detection</span>
+            <span class="tag">Hackathon</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="footer-copyright">© 2026 Lily Phan</p>
+  </div>
+</footer>
+</body>
+</html>
